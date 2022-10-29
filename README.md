@@ -30,6 +30,10 @@ A simple QR Code Card Component using HTML and Less CSS
 - Solution URL: [Github Repo](https://github.com/ch-andrew/fm-qr-code-component)
 - Live Site URL: [Github Page](https://ch-andrew.github.io/fm-qr-code-component/)
 
+## My process
+
+I started with simple html and css then refine the styling using less.
+
 ### Built with
 
 - Mobile-first workflow
@@ -40,7 +44,7 @@ A simple QR Code Card Component using HTML and Less CSS
 
 ### What I learned
 
-In the beginning I wanted to try something new with this project while still using basic html and css without any frameworks. So I decided to use Less CSS for styling, and enjoyed
+In the beginning I wanted to try something new with this project while still using basic html and css without any frameworks. So I decided to use Less CSS for styling, and looking forward to use more of it for my next projects
 
 ```css
 @border-radius: 12px;
