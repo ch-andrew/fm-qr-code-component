@@ -12,18 +12,24 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: @light-gray;
+  background-color: @light-gray;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 h1 {
-    color: @dark-blue;
-    font-weight: 700;
+  color: @dark-blue;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 p {
-    font-size: 15px;
+  font-size: 1rem;
   color: @grayish-blue;
 }
 
@@ -36,25 +42,25 @@ a:hover {
   text-decoration: underline;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
-
 .card {
   background-color: #FFFFFF;
-  width: 280px;
-  padding: 20px;
-  border-radius: @border-radius;
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 18rem;
+  padding: 1rem;
+  border-radius: @border-radius;
 }
 
 .qr-code {
   max-width: 100%;
   border-radius: @border-radius;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
